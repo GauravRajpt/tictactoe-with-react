@@ -1,0 +1,29 @@
+
+#root{
+    display: flex;
+    justify-content: center;
+}
+.boardContainer{
+    height: 600px;
+    width: 50%;
+    margin: 20px;
+}
+   
+.board-row{
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    width: 100%;
+    align-content: space-between;
+    
+    
+    
+
+}
+.square{
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
